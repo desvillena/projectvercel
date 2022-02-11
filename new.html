@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="canonical" href="https://robwu.nl/cors-anywhere.html">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="topnav" id="myTopnav">
+        <a href="index.html">Players</a>
+        <a href="new.html" class="active">New Player</a>
+        <a href="show.html">Edit & Delete Player</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+    <h1>New Player</h1>
+    <div id="container" class="container">
+
+        <input type="text" id="txtName" placeholder="Name">
+        <input type="text" id="txtSurname" placeholder="Surname">
+        <!-- <input type="text" id="txtTeam" placeholder="Team">
+    <input type="text" id="txtPosition" placeholder="Position"> -->
+        <select name="team" id="txtTeam">
+        </select>
+        <select name="position" id="txtPosition">
+        </select>
+        <input id="btnNew" type="button" value="Create">
+
+
+        <br>
+
+        <a href="index.html">Go Back</a>
+    </div>
+
+    <script src="app2.js"></script>
+</body>
+
+</html>
